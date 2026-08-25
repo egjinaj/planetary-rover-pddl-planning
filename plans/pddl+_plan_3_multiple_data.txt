@@ -1,0 +1,20 @@
+Problem Solved
+
+Found Plan:
+0: (move rover1 base site1)
+0: (collect-data rover1 data1 site1)
+0: (collect-data rover1 data2 site1)
+0: -----waiting---- [3.0]
+3.0: (move rover1 site1 base)
+3.0: (offload-data rover1 data2 base)
+3.0: (move rover1 base site1)
+3.0: (move rover1 site1 site2)
+3.0: (collect-data rover1 data3 site2)
+3.0: -----waiting---- [4.0]
+4.0: (move rover1 site2 site1)
+4.0: (move rover1 site1 base)
+4.0: (offload-data rover1 data1 base)
+4.0: (offload-data rover1 data3 base)
+
+Plan-Length:19
+Elapsed Time: 4.0

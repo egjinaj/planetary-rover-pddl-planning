@@ -1,0 +1,9 @@
+Problem unsolvable
+Metric (Search):-1.0
+Planning Time (msec): 192
+Heuristic Time (msec): 104
+Search Time (msec): 0
+Expanded Nodes:6336
+States Evaluated:6518
+Number of Dead-Ends detected:3407
+Number of Duplicates detected:6968

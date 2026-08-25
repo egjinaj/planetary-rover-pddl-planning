@@ -1,0 +1,17 @@
+Problem Solved
+
+Found Plan:
+0.0: (move rover1 base-station site1)
+1.0: (collect-data rover1 data1 site1)
+2.0: (move rover1 site1 base-station)
+3.0: (offload-data rover1 data1 base-station)
+
+Plan-Length:4
+Metric (Search):4.0
+Planning Time (msec): 23
+Heuristic Time (msec): 3
+Search Time (msec): 20
+Expanded Nodes:5
+States Evaluated:5
+Number of Dead-Ends detected:0
+Number of Duplicates detected:2

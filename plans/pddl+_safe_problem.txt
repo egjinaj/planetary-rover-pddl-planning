@@ -1,0 +1,11 @@
+Problem Solved
+
+Found Plan:
+0: (move rover1 base site1)
+0: (collect-data rover1 data1 site1)
+0: -----waiting---- [2.0]
+2.0: (move rover1 site1 base)
+2.0: (offload-data rover1 data1 base)
+
+Plan-Length:7
+Elapsed Time: 2.0

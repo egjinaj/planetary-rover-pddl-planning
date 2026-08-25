@@ -1,0 +1,37 @@
+Problem Solved
+
+Found Plan:
+0.0: (move rover1 base site1)
+1.0: (move rover1 site1 site2)
+2.0: (move rover1 site2 site3)
+3.0: (collect-data rover1 data3 site3)
+4.0: (move rover1 site3 site2)
+5.0: (move rover1 site2 site1)
+6.0: (move rover1 site1 base)
+7.0: (offload-data rover1 data3 base)
+8.0: (move rover1 base site1)
+9.0: (move rover1 site1 site2)
+10.0: (move rover1 site2 site3)
+11.0: (move rover1 site3 site4)
+12.0: (collect-data rover1 data4 site4)
+13.0: (move rover1 site4 site3)
+14.0: (move rover1 site3 site2)
+15.0: (collect-data rover1 data2 site2)
+16.0: (move rover1 site2 site1)
+17.0: (move rover1 site1 base)
+18.0: (offload-data rover1 data2 base)
+19.0: (move rover1 base site1)
+20.0: (collect-data rover1 data1 site1)
+21.0: (move rover1 site1 base)
+22.0: (offload-data rover1 data4 base)
+23.0: (offload-data rover1 data1 base)
+
+Plan-Length:24
+Metric (Search):24.0
+Planning Time (msec): 62
+Heuristic Time (msec): 23
+Search Time (msec): 60
+Expanded Nodes:246
+States Evaluated:274
+Number of Dead-Ends detected:0
+Number of Duplicates detected:226

@@ -1,0 +1,45 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 19
+Aibr Preprocessing
+UFX:false
+|F|:8
+|X|:3
+Heuristic Problem Creation
+Aibr Preprocessing
+|A|:4
+|P|:2
+|E|:2
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 10
+h(I):12.0
+ g(n)= 1.0 h(n)=9.0
+ g(n)= 2.0 h(n)=5.0
+ g(n)= 3.0 h(n)=4.0
+ g(n)= 4.0 h(n)=2.0
+ g(n)= 5.0 h(n)=1.0
+Extracting plan with execution delta: 1.0
+Problem Solved
+
+Found Plan:
+0: (move rover1 base site1)
+0: (collect-data rover1 data1 site1)
+0: -----waiting---- [2.0]
+2.0: (move rover1 site1 base)
+2.0: (offload-data rover1 data1 base)
+
+Plan-Length:7
+Elapsed Time: 2.0
+Metric (Search):6.0
+Planning Time (msec): 18
+Heuristic Time (msec): 6
+Search Time (msec): 13
+Expanded Nodes:7
+States Evaluated:11
+Number of Dead-Ends detected:0
+Number of Duplicates detected:2

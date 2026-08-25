@@ -1,0 +1,88 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 23
+Aibr Preprocessing
+UFX:false
+|F|:21
+|X|:7
+Heuristic Problem Creation
+Aibr Preprocessing
+|A|:10
+|P|:6
+|E|:6
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 11
+h(I):7.0
+f(n) = 7.0 (Expanded Nodes: 1, Evaluated States: 1, Time: 0.007) Frontier Size: 0
+f(n) = 8.0 (Expanded Nodes: 3, Evaluated States: 5, Time: 0.022) Frontier Size: 2
+f(n) = 9.0 (Expanded Nodes: 4, Evaluated States: 9, Time: 0.025) Frontier Size: 5
+f(n) = 10.0 (Expanded Nodes: 6, Evaluated States: 14, Time: 0.028) Frontier Size: 8
+f(n) = 10.166666 (Expanded Nodes: 9, Evaluated States: 19, Time: 0.03) Frontier Size: 10
+f(n) = 10.166667 (Expanded Nodes: 10, Evaluated States: 22, Time: 0.031) Frontier Size: 12
+f(n) = 10.533333 (Expanded Nodes: 13, Evaluated States: 34, Time: 0.033) Frontier Size: 21
+f(n) = 10.833333 (Expanded Nodes: 14, Evaluated States: 36, Time: 0.033) Frontier Size: 22
+f(n) = 11.0 (Expanded Nodes: 17, Evaluated States: 45, Time: 0.034) Frontier Size: 28
+f(n) = 11.166666 (Expanded Nodes: 21, Evaluated States: 51, Time: 0.035) Frontier Size: 30
+f(n) = 11.166667 (Expanded Nodes: 24, Evaluated States: 55, Time: 0.036) Frontier Size: 31
+f(n) = 11.25 (Expanded Nodes: 28, Evaluated States: 55, Time: 0.036) Frontier Size: 27
+f(n) = 11.533333 (Expanded Nodes: 31, Evaluated States: 64, Time: 0.037) Frontier Size: 33
+f(n) = 11.833333 (Expanded Nodes: 33, Evaluated States: 68, Time: 0.038) Frontier Size: 35
+f(n) = 12.0 (Expanded Nodes: 45, Evaluated States: 92, Time: 0.041) Frontier Size: 47
+f(n) = 12.166666 (Expanded Nodes: 52, Evaluated States: 103, Time: 0.043) Frontier Size: 51
+f(n) = 12.166667 (Expanded Nodes: 53, Evaluated States: 106, Time: 0.043) Frontier Size: 53
+f(n) = 12.25 (Expanded Nodes: 54, Evaluated States: 106, Time: 0.044) Frontier Size: 52
+f(n) = 12.333334 (Expanded Nodes: 58, Evaluated States: 111, Time: 0.045) Frontier Size: 53
+f(n) = 12.533333 (Expanded Nodes: 60, Evaluated States: 113, Time: 0.045) Frontier Size: 53
+f(n) = 12.833333 (Expanded Nodes: 61, Evaluated States: 113, Time: 0.046) Frontier Size: 52
+f(n) = 13.0 (Expanded Nodes: 76, Evaluated States: 134, Time: 0.048) Frontier Size: 58
+f(n) = 13.166667 (Expanded Nodes: 92, Evaluated States: 158, Time: 0.05) Frontier Size: 66
+f(n) = 13.25 (Expanded Nodes: 94, Evaluated States: 159, Time: 0.051) Frontier Size: 65
+f(n) = 13.333334 (Expanded Nodes: 97, Evaluated States: 164, Time: 0.051) Frontier Size: 67
+f(n) = 13.833333 (Expanded Nodes: 102, Evaluated States: 171, Time: 0.052) Frontier Size: 69
+f(n) = 14.0 (Expanded Nodes: 117, Evaluated States: 192, Time: 0.055) Frontier Size: 75
+f(n) = 14.166666 (Expanded Nodes: 157, Evaluated States: 258, Time: 0.06) Frontier Size: 101
+f(n) = 14.166667 (Expanded Nodes: 159, Evaluated States: 262, Time: 0.06) Frontier Size: 103
+f(n) = 14.25 (Expanded Nodes: 162, Evaluated States: 265, Time: 0.061) Frontier Size: 103
+f(n) = 14.333334 (Expanded Nodes: 165, Evaluated States: 270, Time: 0.061) Frontier Size: 105
+f(n) = 14.833333 (Expanded Nodes: 171, Evaluated States: 275, Time: 0.062) Frontier Size: 104
+f(n) = 15.0 (Expanded Nodes: 189, Evaluated States: 286, Time: 0.063) Frontier Size: 97
+f(n) = 15.166666 (Expanded Nodes: 279, Evaluated States: 439, Time: 0.069) Frontier Size: 154
+f(n) = 15.166667 (Expanded Nodes: 284, Evaluated States: 446, Time: 0.069) Frontier Size: 156
+f(n) = 15.25 (Expanded Nodes: 289, Evaluated States: 450, Time: 0.07) Frontier Size: 155
+f(n) = 15.333334 (Expanded Nodes: 293, Evaluated States: 457, Time: 0.07) Frontier Size: 158
+f(n) = 15.833333 (Expanded Nodes: 297, Evaluated States: 460, Time: 0.071) Frontier Size: 157
+f(n) = 16.0 (Expanded Nodes: 306, Evaluated States: 471, Time: 0.071) Frontier Size: 159
+Extracting plan with execution delta: 1.0
+Problem Solved
+
+Found Plan:
+0: (move rover1 base site1)
+0: (collect-data rover1 data1 site1)
+0: (collect-data rover1 data2 site1)
+0: -----waiting---- [3.0]
+3.0: (move rover1 site1 base)
+3.0: (offload-data rover1 data2 base)
+3.0: (move rover1 base site1)
+3.0: (move rover1 site1 site2)
+3.0: (collect-data rover1 data3 site2)
+3.0: -----waiting---- [4.0]
+4.0: (move rover1 site2 site1)
+4.0: (move rover1 site1 base)
+4.0: (offload-data rover1 data1 base)
+4.0: (offload-data rover1 data3 base)
+
+Plan-Length:19
+Elapsed Time: 4.0
+Metric (Search):16.0
+Planning Time (msec): 75
+Heuristic Time (msec): 28
+Search Time (msec): 72
+Expanded Nodes:307
+States Evaluated:473
+Number of Dead-Ends detected:50
+Number of Duplicates detected:315

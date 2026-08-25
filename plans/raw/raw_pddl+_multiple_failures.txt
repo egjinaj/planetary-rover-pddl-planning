@@ -1,0 +1,49 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 24
+Aibr Preprocessing
+UFX:false
+|F|:28
+|X|:9
+Heuristic Problem Creation
+Aibr Preprocessing
+|A|:14
+|P|:8
+|E|:8
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 11
+h(I):71.0
+ g(n)= 1.0 h(n)=59.0
+ g(n)= 2.0 h(n)=55.0
+ g(n)= 3.0 h(n)=54.0
+ g(n)= 4.0 h(n)=52.0
+ g(n)= 14.0 h(n)=50.0
+ g(n)= 15.0 h(n)=49.0
+ g(n)= 17.0 h(n)=46.8
+ g(n)= 19.0 h(n)=45.8
+ g(n)= 20.0 h(n)=38.8
+ g(n)= 17.0 h(n)=36.8
+ g(n)= 23.0 h(n)=34.0
+ g(n)= 24.0 h(n)=32.0
+ g(n)= 25.0 h(n)=30.0
+ g(n)= 26.0 h(n)=28.0
+ g(n)= 27.0 h(n)=24.0
+ g(n)= 28.0 h(n)=22.0
+ g(n)= 29.0 h(n)=20.0
+ g(n)= 30.0 h(n)=18.0
+ g(n)= 34.0 h(n)=17.0
+ g(n)= 35.0 h(n)=16.0
+Problem unsolvable
+Metric (Search):-1.0
+Planning Time (msec): 192
+Heuristic Time (msec): 104
+Search Time (msec): 0
+Expanded Nodes:6336
+States Evaluated:6518
+Number of Dead-Ends detected:3407
+Number of Duplicates detected:6968

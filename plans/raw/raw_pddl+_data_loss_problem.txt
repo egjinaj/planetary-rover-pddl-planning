@@ -1,0 +1,33 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 18
+Aibr Preprocessing
+UFX:false
+|F|:8
+|X|:3
+Heuristic Problem Creation
+Aibr Preprocessing
+|A|:4
+|P|:2
+|E|:2
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 10
+h(I):14.0
+ g(n)= 1.0 h(n)=11.0
+ g(n)= 2.0 h(n)=7.0
+ g(n)= 3.0 h(n)=6.0
+ g(n)= 4.0 h(n)=5.0
+Problem unsolvable
+Metric (Search):-1.0
+Planning Time (msec): 13
+Heuristic Time (msec): 3
+Search Time (msec): 0
+Expanded Nodes:6
+States Evaluated:6
+Number of Dead-Ends detected:2
+Number of Duplicates detected:4
